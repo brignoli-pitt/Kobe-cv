@@ -11,20 +11,20 @@
 
 <body>
     <nav>
-        <h1 id="cv">Kobe Bryant</h1>
+        <h1 id="cv"></h1>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="career.html">About us</a></li>
+            <li><a href="index.html">Présentation</a></li>
+            <li><a href="career.html">Carriere</a></li>
             <li><a href="skills.html">Featured posts</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <header>
-        <h1>CV de Kobe Bryant</h1>
+        
     </header>
     <main id="main">
         <section id="about-us">
-            <h2>About us</h2>
+            <h2></h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quam porro magnam recusandae fugiat
                 neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
@@ -33,24 +33,21 @@
                 iusto sunt asperiores corporis voluptas.
             </p>
         </section>
-        <section id="featured-posts">
-            <h2>Featured posts</h2>
+        <section id="links">
+            <h2>voir d'avantage</h2>
             <article>
-                <h1>Article 1</h1>
+                <h1></h1>
             </article>
             <article>
-                <h1>Article 2</h1>
+                <h1></h1>
             </article>
             <article>
-                <h1>Article 3</h1>
-            </article>
-            <article>
-                <h1>Article 4</h1>
+                <h1></h1>
             </article>
         </section>
     </main>
     <footer>
-        © 2022 wilders
+     
     </footer>
 </body>
 
