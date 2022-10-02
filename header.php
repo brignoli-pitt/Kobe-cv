@@ -1,6 +1,8 @@
 <header>    
     <nav class="navbar">
+        
         <a href="index.php" class="nav-branding">Kobe Bryant</a>
+       
         <ul class="nav-menu">
             <li class="nav-item">
                 <a href="index.php" class="nav-link">Présentation</a>
@@ -17,9 +19,10 @@
         </ul>
 
         <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    
     </nav>
 </header>

@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kobe Bryant's cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 <?php include("header.php") ?>
 <script src="script.js"></script>
+    
+    <div class="picContainer">
+        <img src="assets\Kobe-Portrait.jpeg" alt="ProfilePic">
+    </div>
     
     <main id="main">
         <section id="about-me">
@@ -23,21 +28,42 @@
                 neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
                 Cumque doloribus temporibus fugit aliquid odio quia consectetur animi neque delectus dicta inventore,
                 numquam, assumenda nam ratione magni aliquam distinctio? Provident, consequuntur magnam id accusamus
-                iusto sunt asperiores corporis voluptas.
+                iusto sunt asperiores corporisLorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quam porro magnam recusandae fugiat
+                neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
+                Cumque doloribus temporibus fugit aliquid odio quia consectetur animi neque delectus dicta inventore,
+                numquam, assumenda nam ratione magni aliquam distinctio? Provident, consequuntur magnam id accusamus
+                iusto sunt asperiores corporisLorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quam porro magnam recusandae fugiat
+                neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
+                Cumque doloribus temporibus fugit aliquid odio quia consectetur animi neque delectus dicta inventore,
+                numquam, assumenda nam ratione magni aliquam distinctio? Provident, consequuntur magnam id accusamus
+                iusto sunt asperiores corporisLorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quam porro magnam recusandae fugiat
+                neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
+                Cumque doloribus temporibus fugit aliquid odio quia consectetur animi neque delectus dicta inventore,
+                numquam, assumenda nam ratione magni aliquam distinctio? Provident, consequuntur magnam id accusamus
+                iusto sunt asperiores corporisLorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quam porro magnam recusandae fugiat
+                neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
+                Cumque doloribus temporibus fugit aliquid odio quia consectetur animi neque delectus dicta inventore,
+                numquam, assumenda nam ratione magni aliquam distinctio? Provident, consequuntur magnam id accusamus
+                iusto sunt asperiores corporis
             </p>
         </section>
-        <h2>voir d'avantage</h2>
-        <section id="links">
-            <article>
-                <h1><a href="career.php">Carriere</a></h1>
+        
+        <h2>Voir d'avantage...</h2>
+        
+        <section class=extras>
+            
+            <article class="first-bloc">
+                <a href="career.php">Career</a>
             </article>
-            <article>
-                <h1><a href="skills.php">skills</a></h1>
+            <article class="second-bloc">
+                <a href="skills.php">skills</a>
             </article>
-            <article>
-                <h1><a href="contact.php">contact</a></h1>
+            <article class="third-bloc">
+                <a href="contact.php">contact</a>
             </article>
+        
         </section>
+    
     </main>
     
     <?php include("footer.php") ?>
