@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.picContainer{
+    text-align: center;
+    margin: 1rem;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DADADA;
+}
+
+/* section Articles */
+#main{
+    margin: 0 2rem;
+}
+
+h2{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.extras{
+    text-align: center;
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: repeat(3, 2.5rem);
+    grid-gap: 15px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+article{
+    padding: 0.5em;
+    background-color: #552583;
+    border: 1px solid black;
+    border-radius: .5rem;
+    box-shadow: -2px 5px 10px grey;
+}
+
+@media(min-width:768px){
+    .extras{
+        text-align: center;
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 25rem);
+        grid-gap: 1rem;
+        padding: 0;
+        margin: 2rem;
+    }
+}
