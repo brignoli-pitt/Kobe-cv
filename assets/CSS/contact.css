@@ -1,0 +1,51 @@
+/*Contact*/
+.contact{
+    margin-top: 5rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+input[type=submit] {
+    margin-top: 1rem;
+    width: 5rem;
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
+    background-color: #552583;
+    color: #FDB927;
+    font-weight: bold;
+}
+
+label {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.textzone {
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+    max-width: 25rem;
+
+}
+textarea{
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+}
+div {
+    text-align: center;
+}
+.email {
+    background-image: url("https://media.gettyimages.com/photos/kobe-bryant-of-the-los-angeles-lakers-receives-a-congratulatory-phone-picture-id71167321?s=2048x2048");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    color: #fff;
+    padding: 13%;
+    margin : 1rem;
+}

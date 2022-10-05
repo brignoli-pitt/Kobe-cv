@@ -1,13 +1,11 @@
-body {
-    background-color: #dadada;
-}
-section {
+
+.section1 {
     display: flex;
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 3rem;
 }
-article {
+.article1 {
     border:none;
     border-radius: 7%;
     margin-right : 4%;
@@ -41,13 +39,13 @@ text-align: center;
 
 @media(max-width:768px) {
     
-    section{
+    .section1{
         display: flex;
         flex-direction: column;
         gap: 2rem;
         margin-bottom: 3rem;
     }
-    article {
+    .article1 {
         border:none;
         border-radius: 10%;
         margin-right : 4%;
@@ -61,9 +59,7 @@ text-align: center;
     .titre {
         font-size: 1.5rem;
     }
-    header {
-        min-width: 200px;
-    }
+    
     .titreheader {
         font-size : 0.8rem;
         text-align: center;

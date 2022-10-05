@@ -18,8 +18,8 @@
     <div class="titreheader">
     <h1>Kobe Bryant's Career</h1>
 </div>
-    <section>
-        <article>
+    <section class="section1">
+        <article class="article1">
         <h2 class="titre">Trophees<h2>
             <div>
                 <p>Olympic Champion<br>
@@ -52,7 +52,7 @@
             </p>
             </div>
         </article>
-        <article>
+        <article class="article1">
             <h2 class="titre">Achievements<h2>
                 <div>                
                     <p>NBA All star <br>
