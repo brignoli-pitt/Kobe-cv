@@ -17,7 +17,12 @@ a{
     text-decoration: none;
 }
 
-.navbar{
+header {
+    background-color: #552583;
+}
+
+
+.navbar {
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -63,7 +68,7 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
-
+ 
 @media(max-width:768px){
     .hamburger{
         display: block;

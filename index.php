@@ -9,7 +9,7 @@
     <main id="main">
         <section id="about-me">
         
-        <h2>Présentation</h2>
+        <h2 class>Présentation</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quam porro magnam recusandae fugiat
                 neque sit inventore ea dicta ipsam facilis veniam obcaecati fugit deserunt est minus, nulla sequi.
