@@ -1,17 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+header{
+    background-color: #552583;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #FDB927;
+    text-decoration: none;
+}
 
 header {
     background-color: #552583;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    
-    text-decoration: none;
-}
 
 .navbar {
     min-height: 70px;
@@ -33,7 +42,7 @@ a {
 }
 
 .nav-branding:hover{
-    color: #FDB927;
+    color: white;
 }
 
 .nav-link{
@@ -41,8 +50,9 @@ a {
 }
 
 .nav-link:hover{
-    color: #FDB927;
+    color: white;
 }
+
 
 .hamburger{
     display: none;
@@ -58,7 +68,7 @@ a {
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
-
+ 
 @media(max-width:768px){
     .hamburger{
         display: block;
@@ -94,5 +104,9 @@ a {
 
     .nav-menu.active{
         left: 0;
+    }
+
+    .landkobe{
+        display: none;
     }
 }
