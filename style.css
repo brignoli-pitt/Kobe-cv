@@ -1,10 +1,12 @@
-* {
+@import"/assets/CSS/footer.css";
+
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     margin: 0;
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,20 +14,20 @@ body {
 }
 
 /* navigation */
-header {
+header{
     background-color: #552583;
 }
 
-li {
+li{
     list-style: none;
 }
 
-a {
+a{
     color: #FDB927;
     text-decoration: none;
 }
 
-.navbar {
+.navbar{
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -55,6 +57,7 @@ a {
 .nav-link:hover{
     color: white;
 }
+
 
 .hamburger{
     display: none;
@@ -107,11 +110,15 @@ a {
     .nav-menu.active{
         left: 0;
     }
+
+    .landkobe{
+        display: none;
+    }
 }
 
-/* section */
 #main{
     margin: 0 2rem;
+    margin: 2rem;
 }
 
 h2{
@@ -147,6 +154,10 @@ article{
         padding: 0;
         margin: 2rem;
     }
+
+    .Portraitkobe{
+        display: none;
+    }
 }
 
 /*Contact*/
@@ -155,16 +166,18 @@ article{
     display: flex;
     flex-direction: column;
 }
+
 input[type=submit] {
-margin-top: 1rem;
-width: 5rem;
-border-radius: .5rem;
-border: none;
-padding: .5rem;
-background-color: #552583;
-color: #FDB927;
-font-weight: bold;
+    margin-top: 1rem;
+    width: 5rem;
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
+    background-color: #552583;
+    color: #FDB927;
+    font-weight: bold;
 }
+
 label {
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
@@ -172,12 +185,9 @@ label {
 }
 
 /*footer*/
-footer {
-    background-color: #552583;
-    padding: 1rem;
-}
 
-.picContainer{
+
+.KobePics{
     text-align: center;
     margin: 1rem;
 }
