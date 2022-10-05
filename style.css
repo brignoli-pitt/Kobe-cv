@@ -1,193 +1,22 @@
-@import"/assets/CSS/footer.css";
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    margin: 0;
-    line-height: 1.5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightgray;
-}
 
 /* navigation */
-header{
-    background-color: #552583;
-}
-
-li{
-    list-style: none;
-}
-
-a{
-    color: #FDB927;
-    text-decoration: none;
-}
-
-.navbar{
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-}
-
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-}
-
-.nav-branding{
-    font-size: 2rem;
-}
-
-.nav-branding:hover{
-    color: white;
-}
-
-.nav-link{
-    transition: 0.7s ease;
-}
-
-.nav-link:hover{
-    color: white;
-}
 
 
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
+/*header*/
+@import "assets/CSS/header.css";
 
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-}
+/*index*/
+@import "assets/CSS/index.css";
 
-@media(max-width:768px){
-    .hamburger{
-        display: block;
-    }
+/*skills*/
+@import "assets/CSS/skills.css";
 
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #552583;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item{
-        margin: 16px 0;
-    }
-
-    .nav-menu.active{
-        left: 0;
-    }
-
-    .landkobe{
-        display: none;
-    }
-}
-
-#main{
-    margin: 0 2rem;
-    margin: 2rem;
-}
-
-h2{
-    text-align: center;
-    margin: 2rem 0;
-}
-
-.extras{
-    text-align: center;
-    font-size: 1rem;
-    display: grid;
-    grid-template-rows: repeat(3, 2.5rem);
-    grid-gap: 15px;
-    padding: 1rem;
-    margin: 2rem;
-}
-
-article{
-    padding: 0.5em;
-    background-color: #552583;
-    border: 1px solid black;
-    border-radius: .5rem;
-    box-shadow: -2px 5px 10px grey;
-}
-
-@media(min-width:768px){
-    .extras{
-        text-align: center;
-        font-size: 1rem;
-        display: grid;
-        grid-template-columns: repeat(3, 25rem);
-        grid-gap: 1rem;
-        padding: 0;
-        margin: 2rem;
-    }
-
-    .Portraitkobe{
-        display: none;
-    }
-}
+/*career*/
+@import "assets/CSS/career.css";
 
 /*Contact*/
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-}
-
-input[type=submit] {
-    margin-top: 1rem;
-    width: 5rem;
-    border-radius: .5rem;
-    border: none;
-    padding: .5rem;
-    background-color: #552583;
-    color: #FDB927;
-    font-weight: bold;
-}
-
-label {
-    margin-top: 0.5rem;
-    margin-bottom: 0.2rem;
-    border-radius: 1rem;
-}
+@import "assets/CSS/contact.css";
 
 /*footer*/
-
-
-.KobePics{
-    text-align: center;
-    margin: 1rem;
-}
+@import "assets/CSS/footer.css";
