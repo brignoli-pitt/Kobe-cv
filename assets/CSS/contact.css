@@ -37,9 +37,7 @@ textarea{
     border-radius: 0.5rem;
     background-color: #f2f2f2;
 }
-div {
-    text-align: center;
-}
+
 .email {
     background-image: url("https://media.gettyimages.com/photos/kobe-bryant-of-the-los-angeles-lakers-receives-a-congratulatory-phone-picture-id71167321?s=2048x2048");
     background-repeat: no-repeat;
@@ -48,4 +46,8 @@ div {
     color: #fff;
     padding: 13%;
     margin : 1rem;
+}
+#title2 {
+    text-align: center;
+    margin-top: 2rem;
 }
