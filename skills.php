@@ -10,17 +10,14 @@
 </head>
 
 <body>
-    <nav>
-        <h1 id="cv">Kobe Bryant</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="career.html">About us</a></li>
-            <li><a href="skills.html">Featured posts</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <footer>
-        © 2022 wilders
-    </footer>
+    <section>
+        <h2>Skills</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    
+
 </body>
 </html>
