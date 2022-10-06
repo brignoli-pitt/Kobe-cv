@@ -1,12 +1,14 @@
 <?php include("header.php") ?>
 
-<H1 class="smain-title">Skills</H1>
+
 
 <div class="sk-container">
 
     <div class="img-container">
         <img src="assets/image/kobe-skill2.png" alt="Kobe-picture" class="skill-img" />
     </div>
+
+    <H1 class="smain-title">Skills</H1>
 
     <div class="stats-container">
 
@@ -98,6 +100,7 @@
         </div>
 
     </div>
+
 </div>
 
 <?php include("footer.php") ?>
