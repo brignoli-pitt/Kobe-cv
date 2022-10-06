@@ -25,7 +25,7 @@
     background-position: center;
     color: #fff;
     padding: 13%;
-    margin : 1rem;
+    margin : auto;
 }
 
 .titre {
@@ -37,6 +37,9 @@ font-size : 2rem;
 text-align: center;
 }
 
+.p1 {
+    margin-top: 1rem;
+}
 @media(max-width:768px) {
     
     .section1{
@@ -53,7 +56,7 @@ text-align: center;
         margin-top : 1%;
         padding: 2%;
         background-color: #FDB927;
-        box-shadow: 1.5rem 1.5rem #552583;
+        box-shadow: 1.5rem 1.5rem #7b6591;
         font-size : 0.7rem;
 }
     .titre {

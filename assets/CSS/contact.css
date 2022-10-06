@@ -1,12 +1,12 @@
 /*Contact*/
 .contact{
-    margin-top: 5rem;
+    margin-top: auto;
 }
 
 .contact form {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -20,22 +20,27 @@ input[type=submit] {
     background-color: #552583;
     color: #FDB927;
     font-weight: bold;
+    margin-bottom: 5rem;
 }
 
 label {
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
+    font-weight: bold;
 }
 
 .textzone {
     border-radius: 0.5rem;
-    background-color: #f2f2f2;
+    background-color: #FDB927;
+    border-color: #552583;
     max-width: 25rem;
+    height: 2rem;
 
 }
 textarea{
     border-radius: 0.5rem;
-    background-color: #f2f2f2;
+    background-color: #FDB927;
+    border-color: #552583;
 }
 
 .email {
@@ -45,7 +50,7 @@ textarea{
     background-position-y: 20%;
     color: #fff;
     padding: 13%;
-    margin : 1rem;
+    margin : auto;
 }
 #title2 {
     text-align: center;

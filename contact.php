@@ -4,7 +4,7 @@
         <div class="email">
             </div>  
         <div>
-        <h2 id="title2">Contact</h2>
+        <h1 id="title2">Contact</h1>
 </div>
             <form>
           
