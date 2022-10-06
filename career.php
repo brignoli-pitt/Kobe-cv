@@ -83,4 +83,4 @@
                 <p class="p1">Number 8 and 24 retired by Los Angeles Lakers</p>
             </div>     
 </section>
-<?php include ("footer.php")?>
+<?php include("footer.php") ?>

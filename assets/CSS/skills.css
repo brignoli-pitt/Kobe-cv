@@ -1,0 +1,123 @@
+.smain-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.Stitle {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sk-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Picture*/
+.img-container {
+    width: 50%;
+    height: auto;
+    max-height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.skill-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    max-height: 380px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*Statistics*/
+.stats-container {
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+    background-color: #FDB927;
+    box-shadow: 1rem 1rem #552583;
+    margin: 2rem auto;
+}
+
+.l-stat {
+    width: 100%;
+    display: flex;
+}
+
+.skill {
+    width: 100%;
+    margin: 0.5rem auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stat {
+    width: 100%;
+}
+
+.statvalue {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #552583;
+    text-align: center;
+    color: #FDB927;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin: 0.5rem auto;
+}
+
+/* Profile Player*/
+.prog-container {
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+    background-color: #FDB927;
+    box-shadow: 1rem 1rem #552583;
+    margin: 2rem auto;
+}
+
+.progressbar-wrapper {
+    background-color: lightgray;
+    border-radius: 15px;
+    width: 80%;
+    height: 20px;
+    margin: 2rem auto;
+}
+
+.progressbar {
+    background-color: #552583;
+    border-radius: 15px;
+    height: 20px;
+    color: #FDB927;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.points {
+    width: 88%;
+}
+
+.rebounds {
+    width: 90%;
+}
+
+.assists {
+    width: 86%;
+}
+
+.free {
+    width: 93%;
+}
+
+.twofg {
+    width: 87%;
+}
+
+@media(max-width:768px) {}
